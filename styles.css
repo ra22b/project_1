@@ -1,0 +1,147 @@
+
+h1, h2, h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+}
+
+/*  القسم العلوي */
+.hero-section {
+    background-color: #f4f4f4;
+    padding: 60px 20px;
+}
+.hero-content {
+    display: flex;
+    justify-content: center; /* توسيط العناصر أفقيًا داخل الحاوية */
+}
+
+.hero-content .image img {
+    max-width: 100%;
+    height: auto;
+    float: left;
+    margin-left: 50px;
+}
+
+.hero-section h1 span {
+    color: #4CAF50;
+}
+
+
+/**************************clint */
+
+
+.clients-section {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.clients-logos img {
+    margin: 50px;
+    max-width: 100px;
+}
+
+/* تنسيق قسم إدارة المجتمع */
+.community-management {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content .option {
+    max-width: 300px;
+    margin: 10px;
+}
+
+/* ***************تنسيق قسم الدراسة */
+
+.case-study .container {
+    display: flex;
+    align-items: center;
+}
+
+.case-study .image {
+    margin: 100PX;
+    text-align: left;
+}
+
+.case-study .image img {
+    max-width: 80%;
+    height: auto;
+}
+
+.case-study .text-content {
+    flex: 1;
+    padding-right: 100px;
+}
+
+/* تنسيق قسم إعادة اختراع الأعمال */
+
+
+.cntainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #f4f4f4;
+}
+
+.header h1 {
+    color: #28a745;
+    margin-bottom: 0px;
+    margin-right: 500px;
+}
+
+.header p {
+    font-size: 4cap;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+}
+
+.stat img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.stat .text {
+    text-align: left;
+}
+
+.stat h2 {
+    color: #28a745;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+
+.stat p {
+    color: #666;
+    margin: 0;
+}
+
